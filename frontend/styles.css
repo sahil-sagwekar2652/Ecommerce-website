@@ -1,0 +1,91 @@
+/*COLOUR SCHEME
+OFF-WHITE: #E8F3D6;
+LIGHT-YELLOW: #FCF9BE;
+ORANGE1: #FFDCA9;
+ORANGE2: #FAAB78;*/
+
+/*HEADER SECTION*/
+
+.nav1 {
+	background-color: #FCF9BE;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.1rem;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.nav-item {
+	padding-left: 10px;
+}
+
+.brand-logo {
+	width: 40px;
+	margin-bottom: 15px;
+	margin-right: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+	.brand-logo {
+		width: 25px;
+		margin-bottom: 10px;
+	}
+}
+
+.user-pfp {
+	width: 40px;
+	border-radius: 50%;
+}
+
+.nav1 .navbar-brand {
+	font-family: 'Pacifico', cursive;
+	font-size: 2rem;
+}
+
+@media only screen and (max-width: 480px) {
+	.nav1 .navbar-brand {
+		font-size: 1.2rem;
+	}
+	.navbar-toggler {
+		padding: 2px 6px 2px 6px;
+	}
+	.navbar-toggler-icon {
+		width: 5vw;
+	}
+}
+
+.nav2 {
+	background-color: darkslategrey;
+	font-family: 'Poppins', sans-serif;
+}
+
+.vr {
+	color: white;
+}
+
+span.navbar-brand {
+	padding-left: 10px;
+}
+
+button.nav2 {
+	margin-right: 12px;
+}
+
+
+/*BODY SECTION*/
+
+#carousel {
+	background-color: #FFDCA9;
+	padding: 0;
+}
+
+@media screen (max-width: 1200px) {
+	.container-xl {
+		padding: 0;
+		margin: 0;
+		height: 60%;
+	}
+}
+
+body {
+	background-color: #E8F3D6;
+}
